@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500");
+
+* {
+  box-sizing: border-box;
+  font-family: "Epilogue", sans-serif;
+}
+
+.main-bg {
+  background-color: #1d2d50;
+  height: 100vh;
+  width: 100%;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.im-vicky {
+  font-size: 3vw;
+  margin: 5vw 3vw 0 0;
+}
+
+.about-me {
+  margin-top: 9vw;
+}
+
+.about-me span {
+  font-size: 1.7vw;
+}
