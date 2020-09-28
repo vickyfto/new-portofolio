@@ -21,9 +21,13 @@
 }
 
 .about-me {
-  margin-top: 9vw;
+  margin-top: 3vw;
 }
 
 .about-me span {
-  font-size: 1.7vw;
+  font-size: 1.3vw;
+}
+
+.about-me h3 {
+  font-size: 2vw;
 }
