@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500");
 
+@media only screen and (max-width: 320px) {
+  body {
+    font-size: 2em;
+  }
+}
+
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: "Epilogue", sans-serif;
 }
