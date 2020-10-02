@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500");
-@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.cssa");
-/* 
-https://pro.fontawesome.com/releases/v5.10.0/css/all.cssa
-sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" */
 
 * {
   margin: 0;
@@ -11,13 +7,12 @@ sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" */
   font-family: "Epilogue", sans-serif;
 }
 
-.main-bg {
+body {
   background-color: #1d2d50;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  height: 100% !important;
   /* overflow: hidden; */
   /* max-height: inherit; */
   /* padding-bottom: 3em; */
@@ -38,4 +33,30 @@ sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" */
 
 .text-white {
   color: #ffffff;
+}
+.im-vicky {
+  font-size: 2em;
+  margin-top: 2em;
+}
+
+.about-me {
+  margin: 2em 4em 2em 4em;
+  width: auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.562);
+}
+
+.about-me p {
+  font-size: 0.9em;
+}
+
+.about-me h3 {
+  font-size: 2em;
+}
+
+@media only screen and (max-width: 800px) {
+  .about-me {
+    margin: 2em;
+  }
 }
